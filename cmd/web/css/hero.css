@@ -78,6 +78,17 @@
   color: #323232;
 }
 
+.heroSection article.poweringUpArticle input {
+  font-family: Montserrat Alternates;
+  box-sizing: border-box;
+  padding-left: 32px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;  
+}
+
 .heroSection article.poweringUpArticle div {
   display: flex;
   align-items: center;
@@ -107,4 +118,108 @@
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.heroSection article.imageArticle {
+  display: flex;
+  position: relative;
+}
+
+.heroSection article.imageArticle div.chargeStory {
+  position: absolute;
+  box-sizing: border-box;
+  align-self: self-end;
+  right: 31px;
+  bottom: 27.5px;
+  padding: 0px 15px 0px 15px;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 169px;
+  max-height: 169px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 18px;
+}
+
+.heroSection article.imageArticle div.chargeStory ul {
+  max-width: 219px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: -15px 0px 0px 0px;
+  font-family: Montserrat Alternates;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  color:#888888;
+}
+
+.heroSection article.imageArticle div.chargeStory h1{
+  margin: 15px 0px 0px 0px;
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1F1F1F;
+}
+
+.heroSection article.imageArticle div.chargeStory p{
+  margin: 10px 20px 0px 0px;
+  font-family: Montserrat Alternates;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: right;  
+  color:#888888;
+}
+
+.heroSection article.imageArticle div.smartEnergy {
+  position: absolute;
+  box-sizing: border-box;
+  left: -50px;
+  bottom: 121px;
+  padding: 10px;
+  min-width: 157px;
+  max-width: 157px;
+  min-height: 193px;
+  max-height: 193px;
+  background-color: #fff;
+  border-radius: 22px;
+  border: 1px solid black;
+}
+
+.heroSection article.imageArticle div.smartEnergy h1 {
+  font-family: Montserrat Alternates;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.heroSection article.imageArticle div.smartEnergy p {
+  margin: 0px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.heroSection article.imageArticle div.smartEnergy p span{
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:  #2755F3;  
 }
