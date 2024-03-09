@@ -1,0 +1,7 @@
+<section class=\"whatWeOfferSection\"><link rel=\"stylesheet\" href=\"/css/whatWeOffer.css\"><h1>We Offer Differents Services</h1><div class=\"articleContainer\">
+</div></section>
+<article class=\"
+\"><img class=\"iconArticle\" src=\"
+\" alt=\"\"><h2>
+</h2><p>
+</p><div><a href=\"#\">Learn More</a> <img src=\"/assets/ArrowWhatWeOffer.svg\" alt=\"\"></div></article>

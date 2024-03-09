@@ -1,0 +1,4 @@
+<section class=\"heroSection\"><link rel=\"stylesheet\" href=\"/css/hero.css\">
+</section>
+<article class=\"poweringUpArticle\"><h1>Powering Up with<br>Solar Solutions</h1><p>Harness the sun's energy with solar panels, paving<br>the way for renewable and green energy solutions</p><input type=\"text\"> <a href=\"#\" class=\"howItsWork\">How It's Work</a> <a href=\"\" class=\"lightUp\">Light Up!</a><div><div><h2>2.5k</h2><p>Happy Clients</p></div><div><h2>8.4k</h2><p>Generated</p></div></div></article>
+<article><img src=\"/assets/SolarPanelHeroImage.png\" alt=\"\"></article>

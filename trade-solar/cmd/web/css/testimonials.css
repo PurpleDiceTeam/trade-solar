@@ -1,0 +1,45 @@
+.testimonials {
+  min-height: 457px;
+  background-color: blue;
+  padding: 0px 10vw 0px 10vw;
+}
+
+.testimonials div.tittleContainer{
+  display: flex;
+  align-items: center;
+}
+
+.testimonials div.tittleContainer{
+  display: flex;
+  align-items: center;
+}
+
+.testimonials div.tittleContainer h1{
+  margin: 0px 24px 0px 0px;
+}
+
+.testimonials div.tittleContainer p {
+  margin: 0px 0px 0px 32px;
+}
+
+.testimonials div.articlesContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonials div.articlesContainer article{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonials div.articlesContainer article div{
+  padding-left: 32px;
+}
+
+.testimonials div article{
+  min-width: 1000px;
+  background-color: red;
+  height: 283px;
+}

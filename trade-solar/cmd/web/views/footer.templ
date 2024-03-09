@@ -1,0 +1,54 @@
+package views
+
+templ Footer() {
+	<footer class="footerDiv">
+		<link rel="stylesheet" href="/css/footer.css"/>
+		<div class="articleContainer">
+			@GetFreeConsultArticle()
+			<div class="linksContainer">
+				@QuickLinksArticle()
+				@ContacUsArticle()
+				<div class="socialMediaContainer">
+					@SocialMediaLinks()
+				</div>
+			</div>
+		</div>
+		<p>© 2023 Trade Solar Inc · All Rights Reserved.</p>
+	</footer>
+}
+
+templ QuickLinksArticle() {
+	<article>
+		<h1>QUICK LINKS</h1>
+		<ul>
+			<li><a href="">About</a></li>
+			<li><a href="">Services</a></li>
+			<li><a href="">Partners</a></li>
+		</ul>
+	</article>
+}
+
+templ ContacUsArticle() {
+	<article>
+		<h1>CONTACT US</h1>
+		<ul>
+			<li><a href="">1 (723) 393 5824</a></li>
+			<li><a href="">malik@solartrade.com</a></li>
+			<li><a href="">Address NY</a></li>
+		</ul>
+	</article>
+}
+
+templ SocialMediaLinks() {
+	<img src="/assets/Linkedin.svg" alt="Linkedin logo"/>
+	<img src="/assets/Facebook.svg" alt="Facebook logo"/>
+	<img src="/assets/Instagram.svg" alt="Instagram logo"/>
+	<img src="/assets/Twitter.svg" alt="Twitter logo"/>
+}
+
+templ GetFreeConsultArticle() {
+	<article>
+		<p>SOLAR</p>
+		<a href="#">GET A FREE CONSULT</a>
+	</article>
+}

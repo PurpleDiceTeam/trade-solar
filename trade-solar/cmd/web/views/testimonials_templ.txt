@@ -1,0 +1,4 @@
+<section class=\"testimonials\"><link rel=\"stylesheet\" href=\"/css/testimonials.css\">
+</section>
+<div class=\"articlesContainer\"><img src=\"/assets/CarruselLeftArrow.svg\" alt=\"Carrusel left arrow\"><article><img src=\"/assets/testimonialsPhoto.png\" alt=\"\"><div class=\"textArticleContainer\"><p>Trade Solar has exceeded my expectations. I wholeheartedly recommend them to anyone considering a switch to solar energy. Choosing Trade Solar was undeniably a bright decision for me and my home.</p><p>Heather Bennet</p><p>CEO - CO2E Measurement Solutions</p></div></article><img src=\"/assets/CarruselRightArrow.svg\" alt=\"Carrusel right arrow\"></div>
+<div class=\"tittleContainer\"><h1>Testimonials</h1><img src=\"/assets/Arrow.svg\" alt=\"Arrow\"><p>See what people are saying</p></div>

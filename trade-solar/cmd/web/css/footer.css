@@ -1,0 +1,11 @@
+.footerDiv {
+  min-height: 395px;
+  background: linear-gradient(140.89deg, rgba(39, 85, 243, 0.14) 0%, rgba(20, 117, 238, 0.14) 50%, rgba(0, 149, 233, 0.14) 100%);
+  text-align: center;
+}
+
+.footerDiv div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

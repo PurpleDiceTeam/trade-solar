@@ -1,0 +1,123 @@
+.whoWeAre {
+  min-height: 543px;
+  background-color: #fff;
+  padding: 0px 10vw 0px 10vw;
+}
+
+.whoWeAre div.tittleContainer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.whoWeAre div.tittleContainer h1{
+  margin: 0px 24px 0px 0px;
+  font-family: Montserrat Alternates;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.whoWeAre div.tittleContainer a{
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0px 0px 0px 32px;
+  width: 212px;
+  height: 56px;
+  border: solid 1px #1F1F1F;
+  border-radius: 64px;
+  font-family: Montserrat Alternates;
+  font-weight: 500;
+  line-height: 56px;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(140.89deg, #2755F3 0%, #1475EE 50%, #0095E9 100%);
+}
+
+.whoWeAre div.articlesContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.whoWeAre div article.goalsArticle {
+  min-height: 390px;
+  min-width: 387px;
+  padding-top: 27px;
+  border-radius: 32px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(39, 85, 243, 0.5) 100%, rgba(32, 68, 190, 0.253928) 100%, rgba(25, 50, 135, 0) 100%, rgba(39, 85, 243, 0) 100%), url('../assets/WhoWeAreSolarPanel.png');
+  background-blend-mode: overlay;
+  background-position: -80px -210px;
+}
+
+
+
+.whoWeAre div article.goalsArticle h2 {
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 90px;
+  letter-spacing: 0em;
+  margin: 0px;
+  color: #fff;
+}
+
+.whoWeAre div article.goalsArticle p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  margin: 0px;
+  color: #fff;
+}
+
+.whoWeAre div article.moreAboutArticle {
+  min-height: 417px;
+  min-width: 660px;
+  padding: 0px 0px 0px 64px;
+  border-radius: 32px;
+  background-color: #fafafa;
+}
+
+.whoWeAre div article.moreAboutArticle h2{
+  font-family: Montserrat Alternates;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.whoWeAre div article.moreAboutArticle div{
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+}
+
+.whoWeAre div article.moreAboutArticle div a{
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  border-bottom: 1.5px solid;
+  text-decoration: none;
+  margin-right: 6px;
+}
+
+.whoWeAre div article.moreAboutArticle p{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;  
+}
