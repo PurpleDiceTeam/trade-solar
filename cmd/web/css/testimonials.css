@@ -1,6 +1,5 @@
 .testimonials {
   min-height: 457px;
-  background-color: blue;
   padding: 0px 10vw 0px 10vw;
 }
 
@@ -16,10 +15,23 @@
 
 .testimonials div.tittleContainer h1{
   margin: 0px 24px 0px 0px;
+  font-family: Montserrat Alternates;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+
 }
 
 .testimonials div.tittleContainer p {
   margin: 0px 0px 0px 32px;
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .testimonials div.articlesContainer{
@@ -32,14 +44,44 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 40px 0px 0px 0px;
 }
 
 .testimonials div.articlesContainer article div{
   padding-left: 32px;
 }
 
+.testimonials div.articlesContainer article div p.mainText{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.testimonials div.articlesContainer article div p.autor{
+  margin-bottom: 0px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;  
+}
+
+.testimonials div.articlesContainer article div p.aboutAutor{
+  margin: 0px 0px 22px 0px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;  
+}
+
 .testimonials div article{
   min-width: 1000px;
-  background-color: red;
+  max-width: 1000px;
   height: 283px;
 }

@@ -8,7 +8,8 @@
 }
 
 .heroSection article.poweringUpArticle {
-  min-width: 552px;
+  min-width: 522px;
+  max-width: 522px;
   min-height: 618px;
 }
 
@@ -36,6 +37,7 @@
 .heroSection article.poweringUpArticle input {
   display: block;
   width: 470px;
+  min-width: none;
   height: 62px;
   margin: 0px 0px 28px 0px;
   padding: 24px, 32px, 24px, 32px;
