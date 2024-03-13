@@ -6,8 +6,10 @@ templ Footer() {
 		<div class="articleContainer">
 			@GetFreeConsultArticle()
 			<div class="linksContainer">
-				@QuickLinksArticle()
-				@ContacUsArticle()
+				<div class="linksListsContainer">
+					@QuickLinksArticle()
+					@ContacUsArticle()
+				</div>
 				<div class="socialMediaContainer">
 					@SocialMediaLinks()
 				</div>
@@ -18,8 +20,10 @@ templ Footer() {
 }
 
 templ QuickLinksArticle() {
-	<article>
+	<article class="quickLinks">
 		<h1>QUICK LINKS</h1>
+		<img src="/assets/quickLinkLine.svg" alt=""/>
+		<img src="/assets/" alt=""/>
 		<ul>
 			<li><a href="">About</a></li>
 			<li><a href="">Services</a></li>
@@ -29,12 +33,22 @@ templ QuickLinksArticle() {
 }
 
 templ ContacUsArticle() {
-	<article>
+	<article class="contactUs">
 		<h1>CONTACT US</h1>
+		<img src="/assets/contactUsLine.svg" alt=""/>
 		<ul>
-			<li><a href="">1 (723) 393 5824</a></li>
-			<li><a href="">malik@solartrade.com</a></li>
-			<li><a href="">Address NY</a></li>
+			<li>
+				<img src="/assets/phone.svg" alt=""/>
+				<a href="">1 (723) 393 5824</a>
+			</li>
+			<li>
+				<img src="/assets/email.svg" alt=""/>
+				<a href="">malik@solartrade.com</a>
+			</li>
+			<li>
+				<img src="/assets/location.svg" alt=""/>
+				<a href="">Address NY</a>
+			</li>
 		</ul>
 	</article>
 }
@@ -47,7 +61,7 @@ templ SocialMediaLinks() {
 }
 
 templ GetFreeConsultArticle() {
-	<article>
+	<article class="getFreeConsult">
 		<p>SOLAR</p>
 		<a href="#">GET A FREE CONSULT</a>
 	</article>
