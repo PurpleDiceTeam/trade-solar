@@ -1,4 +1,0 @@
-<nav class=\"navbar\"><link rel=\"stylesheet\" href=\"/css/navBar.css\"><img src=\"/assets/Logo.svg\" alt=\"Trade solar logo\"><ul>
-</ul><a class=\"startedButton\" href=\"#\">Get Started</a></nav>
-<li class=\"navLi\"><a href=\"#\">
-</a></li>
