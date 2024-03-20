@@ -46,8 +46,7 @@ div.articlesContainer article div img.leftQuotes {
 
 div.articlesContainer article div img.rightQuotes {
   position: absolute;
-  right: 200px;
-  margin-top: -100px;
+  margin: -100px 0px 0px 550px;
 }
 
 div.articlesContainer article div p.mainText {
