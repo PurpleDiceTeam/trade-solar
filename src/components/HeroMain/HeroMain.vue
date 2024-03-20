@@ -16,7 +16,7 @@ import PoweringUpArticle from './PoweringUpArticle.vue';
 	background-color: #fff;
 	min-height: 746px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	padding: 0px 10vw 0px 10vw;
 }

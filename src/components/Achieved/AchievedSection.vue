@@ -21,6 +21,6 @@ import WeAchievedArticle from './WeAchievedArticle.vue';
   min-height: 664px;
   padding: 0px 10vw 0px 10vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 </style>

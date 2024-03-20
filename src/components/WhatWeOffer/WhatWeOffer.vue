@@ -34,7 +34,7 @@ import WhatWeOfferArticle from './WhatWeOfferArticle.vue';
 
 .whatWeOfferSection div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 </style>

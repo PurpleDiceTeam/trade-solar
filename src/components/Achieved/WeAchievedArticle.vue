@@ -37,8 +37,7 @@ article {
 
 article p img {
   position: absolute;
-  left: 10vw;
-  margin: -5px 0px 0px 36px;
+  margin: -5px 0px 0px -228px;
 }
 
 article h1 {
