@@ -48,6 +48,7 @@ article img.iconArticle {
 
 article h2 {
   font-family: "Montserrat Alternates", "Montserrat";
+  margin: 16.6px 0px;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;

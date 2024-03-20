@@ -103,6 +103,7 @@ article div.smartEnergy {
 }
 
 article div.smartEnergy h1 {
+  margin: 12px 0px 5px;
   font-family: Montserrat Alternates;
   margin-bottom: 5px;
   font-size: 18px;
