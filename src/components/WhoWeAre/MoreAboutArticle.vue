@@ -24,8 +24,8 @@
 
 <style scoped>
 article {
-  min-height: 417px;
-  min-width: 660px;
+  height: 417px;
+  width: 660px;
   padding: 0px 0px 0px 64px;
   border-radius: 32px;
   background-color: #fafafa;
@@ -71,5 +71,37 @@ article p {
   line-height: 32px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+@media only screen and (min-width: 1920px) {
+  article {
+    height: 572px;
+    width: 1048px;
+    box-sizing: border-box;
+    padding: 47px 80px 47px 80px;
+  }
+
+  article h2 {
+    font-size: 63.09px;
+  }
+
+  article p {
+    font-size: 24.69px;
+    line-height: 44.43px;
+  }
+
+  article div {
+    margin-top: 77px;
+  }
+
+  article div a {
+    font-size: 27.43px;
+    line-height: 32.91px;
+  }
+
+  article div img {
+    width: 40px;
+    margin-bottom: -6px;
+  }
 }
 </style>

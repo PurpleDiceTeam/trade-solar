@@ -17,4 +17,11 @@ article {
   display: flex;
   position: relative;
 }
+
+@media only screen and (min-width: 1920px) {
+  article img {
+    width: 787.2px;
+    height: 821.49px;
+  }
+}
 </style>

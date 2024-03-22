@@ -25,10 +25,8 @@
 
 <style scoped>
 article {
-  min-width: 370px;
-  max-width: 370px;
-  min-height: 584px;
-  max-height: 584px;
+  width: 370px;
+  height: 584px;
   border-radius: 27px;
   background-color: #fafafa;
   box-sizing: border-box;
@@ -89,9 +87,8 @@ article a {
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  min-width: 166px;
-  max-width: 166px;
-  min-height: 53px;
+  width: 166px;
+  height: 53px;
   border: solid 2px #acacac;
   border-radius: 64px;
   font-family: Montserrat Alternates;
@@ -100,5 +97,55 @@ article a {
   line-height: 50px;
   letter-spacing: 0em;
   color: #323232;
+}
+
+@media only screen and (min-width: 1920px) {
+  article {
+    width: 507px;
+    height: 801px;
+    padding: 65.75px;
+  }
+
+  article h1 {
+    font-size: 50.1px;
+    line-height: 71.39px;
+  }
+
+  article p.percentage {
+    font-size: 150.29px;
+    line-height: 187.87px;
+  }
+
+  article p.mainText {
+    font-size: 37.57px;
+    line-height: 61.62px;
+  }
+
+  article p img {
+    position: absolute;
+    width: 280.49px;
+    margin: -7px 0px 0px -314px;
+  }
+
+  article div {
+    margin-top: 120px;
+  }
+
+  article div p {
+    font-size: 25.05px;
+    line-height: 30.06px;
+  }
+
+  article div img {
+    width: 87.67px;
+  }
+
+  article a {
+    width: 227px;
+    height: 72px;
+    font-family: Montserrat Alternates;
+    font-size: 23.45px;
+    line-height: 72px;
+  }
 }
 </style>

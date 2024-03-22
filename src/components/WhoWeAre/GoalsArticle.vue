@@ -14,8 +14,10 @@
 
 <style scoped>
 article {
-  min-height: 390px;
-  min-width: 387px;
+  height: 417px;
+  width: 387px;
+  margin: 0px 40px;
+  box-sizing: border-box;
   padding-top: 27px;
   border-radius: 32px;
   text-align: center;
@@ -23,7 +25,6 @@ article {
   background-blend-mode: overlay;
   background-position: -80px -210px;
 }
-
 
 article h2 {
   font-family: Montserrat Alternates;
@@ -43,5 +44,23 @@ article p {
   letter-spacing: 0em;
   margin: 0px;
   color: #fff;
+}
+
+@media only screen and (min-width: 1920px) {
+  article {
+    width: 515.66px;
+    height: 572px;
+    padding-top: 57.6px;
+    background-position: -80px -100px;
+  }
+
+  article h2 {
+    font-size: 87.77px;
+  }
+
+  article p {
+    font-size: 21.94px;
+    margin-bottom: 65px;
+  }
 }
 </style>

@@ -8,4 +8,8 @@
   <img src="/src/assets/Footer/Twitter.svg" alt="Twitter logo" />
 </template>
 
-<style scoped></style>
+<style scoped>
+img {
+  width: 40px;
+}
+</style>

@@ -19,10 +19,8 @@ div {
   left: -50px;
   bottom: 121px;
   padding: 10px;
-  min-width: 157px;
-  max-width: 157px;
-  min-height: 193px;
-  max-height: 193px;
+  width: 157px;
+  height: 193px;
   background-color: #fff;
   border-radius: 22px;
   border: 1px solid black;
@@ -58,5 +56,31 @@ div p span {
   letter-spacing: 0em;
   text-align: left;
   color: #2755F3;
+}
+
+@media only screen and (min-width: 1920px) {
+  div {
+    width: 215.31px;
+    height: 264.69px;
+    padding: 14.4px;
+  }
+
+  div img {
+    width: 186.51px;
+    height: 146.74px;
+  }
+
+  div h1 {
+    font-size: 24.69px;
+    margin: 22px 0px 14px;
+  }
+
+  div p {
+    font-size: 16.92px;
+  }
+
+  div p span {
+    font-size: 16.92px;
+  }
 }
 </style>

@@ -19,34 +19,17 @@
 
 <style scoped>
 div {
+  width: 250px;
+  height: 169px;
   position: absolute;
   box-sizing: border-box;
   align-self: self-end;
   right: 31px;
   bottom: 27.5px;
   padding: 0px 15px 0px 15px;
-  min-width: 250px;
-  max-width: 250px;
-  min-height: 169px;
-  max-height: 169px;
   background-color: #fff;
   border: 1px solid #000;
   border-radius: 18px;
-}
-
-div ul {
-  max-width: 219px;
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  padding-left: 0;
-  margin: -15px 0px 0px 0px;
-  font-family: Montserrat Alternates;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 13px;
-  letter-spacing: 0em;
-  color: #888888;
 }
 
 div h1 {
@@ -69,5 +52,48 @@ div p {
   letter-spacing: 0em;
   text-align: right;
   color: #888888;
+}
+
+div ul {
+  width: 219px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: -15px 0px 0px 0px;
+  font-family: Montserrat Alternates;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  color: #888888;
+}
+
+@media only screen and (min-width: 1920px) {
+  div {
+    width: 342.86px;
+    height: 231px;
+    padding: 0px 22px 0px 22px;
+  }
+
+  div h1 {
+    font-size: 21.94px;
+    margin: 28px 0px 0px 0px;
+  }
+
+  div p {
+    font-size: 17.48px;
+    margin-top: 16px;
+  }
+
+  div img {
+    width: 298px;
+    height: 124px;
+  }
+
+  div ul {
+    width: 299px;
+    font-size: 17.48px;
+  }
 }
 </style>

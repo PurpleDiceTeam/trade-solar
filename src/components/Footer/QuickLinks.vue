@@ -48,4 +48,19 @@ article h1 {
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media only screen and (min-width: 1920px) {
+  article h1 {
+    font-size: 20px;
+  }
+
+  article img {
+    width: 167px;
+  }
+
+  article ul {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+}
 </style>

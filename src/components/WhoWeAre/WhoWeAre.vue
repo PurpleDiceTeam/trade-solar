@@ -16,7 +16,7 @@ import WhoweAreTitle from './WhoweAreTitle.vue';
 
 <style scoped>
 .whoWeAre {
-  min-height: 543px;
+  height: 543px;
   background-color: #fff;
   padding: 0px 10vw 0px 10vw;
 }
@@ -25,5 +25,11 @@ import WhoweAreTitle from './WhoweAreTitle.vue';
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+@media only screen and (min-width: 1920px) {
+  .whoWeAre {
+    height: 744.49px;
+  }
 }
 </style>

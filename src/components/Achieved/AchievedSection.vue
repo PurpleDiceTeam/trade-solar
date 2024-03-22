@@ -23,4 +23,10 @@ import WeAchievedArticle from './WeAchievedArticle.vue';
   display: flex;
   justify-content: space-evenly;
 }
+
+@media only screen and (min-width: 1920px) {
+  .achieved {
+    height: 911.29px;
+  }
+}
 </style>

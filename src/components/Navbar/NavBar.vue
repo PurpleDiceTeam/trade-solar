@@ -20,4 +20,15 @@ import NavigateUl from './NavigateUl.vue';
 	justify-content: space-between;
 	align-items: center;
 }
+
+@media only screen and (min-width: 1920px) {
+	.navbar {
+		height: 100px;
+	}
+
+	.navbar img {
+		width: 336px;
+		height: 44px;
+	}
+}
 </style>

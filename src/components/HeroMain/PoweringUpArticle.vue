@@ -22,9 +22,8 @@ import PoweringUpTitle from './PoweringUpTitle.vue';
 
 <style scoped>
 article {
-	min-width: 522px;
-	max-width: 522px;
-	min-height: 618px;
+	width: 522px;
+	height: 618px;
 }
 
 article p {
@@ -39,5 +38,18 @@ article p {
 
 article div {
 	display: flex;
+}
+
+@media only screen and (min-width: 1920px) {
+	article {
+		width: 715.89px;
+		height: 847.54px;
+	}
+
+	article p {
+		font-family: Montserrat;
+		font-size: 24.69px;
+		line-height: 44.43px;
+	}
 }
 </style>

@@ -12,7 +12,6 @@ img {
   right: 9vw;
 }
 
-
 a {
   display: inline-block;
   text-align: center;
@@ -28,5 +27,21 @@ a {
   font-size: 20px;
   color: #fff;
   background: linear-gradient(140.89deg, #2755F3 0%, #1475EE 50%, #0095E9 100%);
+}
+
+@media only screen and (min-width: 1920px) {
+  img {
+    position: absolute;
+    right: 9vw;
+    width: 47px;
+    height: 47px;
+  }
+
+  a {
+    width: 248px;
+    height: 77px;
+    font-size: 27.43px;
+    line-height: 77px;
+  }
 }
 </style>

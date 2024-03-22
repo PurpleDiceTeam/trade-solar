@@ -13,7 +13,7 @@
 <style scoped>
 ul {
   list-style-type: none;
-  text-align: center;
+  padding-left: 0px;
 }
 
 ul li {
@@ -34,5 +34,20 @@ ul li a {
   font-display: 500;
   font-size: 18px;
   line-height: 21.6px;
+}
+
+@media only screen and (min-width: 1920px) {
+  ul {
+    margin-top: 10px;
+  }
+
+  ul li {
+    padding: 22px 19px 16px 19px;
+  }
+
+  ul li a {
+    font-size: 25px;
+    line-height: 0px;
+  }
 }
 </style>

@@ -17,7 +17,6 @@ const props = defineProps<Props>()
 div {
   display: flex;
   flex-direction: column;
-  text-align: left;
   margin: 0px 46px 0px 0px;
 }
 
@@ -39,5 +38,16 @@ div p {
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+@media only screen and (min-width: 1920px) {
+  h2 {
+    margin-top: 160px;
+    font-size: 82.29px;
+  }
+
+  div p {
+    font-size: 32.91px;
+  }
 }
 </style>

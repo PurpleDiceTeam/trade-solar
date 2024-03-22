@@ -24,7 +24,7 @@ import SocialMediaLinks from './SocialMediaLinks.vue';
   </footer>
 </template>
 
-<style>
+<style scoped>
 .footerDiv {
   min-height: 395px;
   background: linear-gradient(140.89deg, rgba(39, 85, 243, 0.14) 0%, rgba(20, 117, 238, 0.14) 50%, rgba(0, 149, 233, 0.14) 100%);
@@ -53,5 +53,24 @@ import SocialMediaLinks from './SocialMediaLinks.vue';
 
 .footerDiv div.linksContainer div.socialMediaContainer {
   margin-left: 150px;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 13.13px;
+  font-weight: 400;
+  line-height: 15.75px;
+  letter-spacing: 0.01em;
+}
+
+@media only screen and (min-width: 1920px) {
+  .footerDiv {
+    height: 542px;
+  }
+
+  .footerDiv p {
+    margin-top: 140px;
+    font-size: 18px;
+  }
 }
 </style>

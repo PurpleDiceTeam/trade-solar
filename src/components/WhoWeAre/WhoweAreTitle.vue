@@ -43,4 +43,22 @@ div a {
   color: #fff;
   background: linear-gradient(140.89deg, #2755F3 0%, #1475EE 50%, #0095E9 100%);
 }
+
+@media only screen and (min-width: 1920px) {
+  div h1 {
+    font-size: 63.09px;
+    line-height: 75.7px;
+  }
+
+  div img {
+    width: 153px;
+  }
+
+  div a {
+    width: 290.77px;
+    height: 84.83px;
+    font-size: 27.43px;
+    line-height: 84.83px;
+  }
+}
 </style>

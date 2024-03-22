@@ -11,16 +11,14 @@
 
 <style scoped>
 article {
-  min-width: 370px;
-  max-width: 370px;
-  min-height: 584px;
-  max-height: 584px;
+  width: 370px;
+  height: 584px;
   border-radius: 27px;
   background-color: #fafafa;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 36px 18px 18px 36px;
+  padding: 36px 18px 18px 20px;
   background: url("/src/assets/Achieved/AchievedSolarPanel.png");
   background-position: center center;
 }
@@ -41,10 +39,8 @@ article a {
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  min-width: 117px;
-  max-width: 117px;
-  min-height: 37px;
-  max-height: 37px;
+  width: 117px;
+  height: 37px;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
@@ -57,5 +53,32 @@ article a {
 
 article img {
   align-self: flex-start;
+}
+
+@media only screen and (min-width: 1920px) {
+  article {
+    width: 507px;
+    height: 801px;
+    padding: 50px 30px 30px 50px;
+    background-size: cover;
+  }
+
+  article h1 {
+    font-size: 34.44px;
+  }
+
+  article img {
+    width: 81.41px;
+  }
+
+  article a {
+    width: 161.82px;
+    height: 51.05px;
+    font-size: 21.94px;
+    line-height: 51.05px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='22' ry='22' stroke='white' stroke-width='3' stroke-dasharray='7%2c 16' stroke-dashoffset='42' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 22px;
+    margin-top: -6px;
+  }
 }
 </style>

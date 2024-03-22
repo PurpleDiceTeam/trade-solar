@@ -59,4 +59,27 @@ a.lightUp {
   font-size: 20px;
   color: #323232;
 }
+
+@media only screen and (min-width: 1920px) {
+  input {
+    width: 644.57px;
+    height: 84.83px;
+    font-size: 27.43px;
+    line-height: 32.91px;
+  }
+
+  a.howItsWork {
+    width: 300px;
+    height: 85px;
+    font-size: 27.43px;
+    line-height: 85px;
+  }
+
+  a.lightUp {
+    width: 300px;
+    height: 85px;
+    font-size: 27.43px;
+    line-height: 85px;
+  }
+}
 </style>

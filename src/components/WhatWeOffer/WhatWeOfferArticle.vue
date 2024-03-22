@@ -22,12 +22,11 @@ const props = defineProps<Props>()
 
 <style scoped>
 article {
-  min-width: 290px;
-  max-width: 338px;
-  min-height: 410px;
-  max-height: 410px;
+  width: 370px;
+  height: 410px;
   margin: 0px 16px 0px 16px;
-  padding: 32px;
+  padding: 16px 32px;
+  box-sizing: border-box;
   border: solid 3px #0000;
   border-radius: 26px;
   background:
@@ -68,7 +67,7 @@ article p {
 article div {
   display: flex;
   justify-content: initial;
-  margin-top: 45px
+  margin-top: 20px
 }
 
 article div a {
@@ -82,5 +81,44 @@ article div a {
   border-bottom: 1.5px solid;
   text-decoration: none;
   margin-right: 6px;
+}
+
+@media only screen and (min-width: 1920px) {
+  article {
+    width: 506.51px;
+    height: 558.63px;
+    height: 558.63px;
+    padding: 32px;
+    margin-top: 30px;
+  }
+
+  article img.iconArticle {
+    width: 68.61px;
+    height: 62.23px;
+  }
+
+  article h2 {
+    font-size: 27.43px;
+    line-height: 32.91px;
+  }
+
+  article p {
+    font-size: 21.94px;
+    line-height: 35.11px;
+  }
+
+  article div {
+    margin-top: 50px;
+  }
+
+  article div a {
+    font-size: 27.43px;
+    line-height: 32.91px;
+  }
+
+  article div img {
+    width: 40px;
+    margin-bottom: -4px;
+  }
 }
 </style>

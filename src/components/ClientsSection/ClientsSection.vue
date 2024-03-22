@@ -15,7 +15,7 @@
 
 <style scoped>
 .clientsSection {
-  min-height: 154px;
+  height: 154px;
   display: flex;
   padding: 0px 10vw 0px 10vw;
   justify-content: space-between;
@@ -27,5 +27,15 @@
     34px 0px 20px 0px #0000000D inset,
     61px 0px 24px 0px #00000003 inset,
     95px 0px 27px 0px #00000000 inset;
+}
+
+@media only screen and (min-width: 1920px) {
+  .clientsSection {
+    height: 211px;
+  }
+
+  .clientsSection img {
+    height: 20%;
+  }
 }
 </style>

@@ -35,4 +35,22 @@ div p {
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media only screen and (min-width: 1920px) {
+  div h1 {
+    font-size: 63.09px;
+    line-height: 75.7px;
+    margin-right: 50px;
+  }
+
+  div img {
+    width: 152.96px;
+  }
+
+  div p {
+    font-size: 27.43px;
+    line-height: 32.91px;
+    margin: 0px 0px 0px 46px;
+  }
+}
 </style>

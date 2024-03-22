@@ -12,7 +12,13 @@ import TestimonialsTittle from './TestimonialsTittle.vue';
 
 <style scoped>
 .testimonials {
-	min-height: 457px;
+	height: 457px;
 	padding: 0px 10vw 0px 10vw;
+}
+
+@media only screen and (min-width: 1920px) {
+	.testimonials {
+		height: 627.24px;
+	}
 }
 </style>

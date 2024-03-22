@@ -18,7 +18,7 @@ import WhatWeOfferArticle from './WhatWeOfferArticle.vue';
 
 <style>
 .whatWeOfferSection {
-  min-height: 654px;
+  height: 654px;
   padding: 12px 10vw 12px 10vw;
 }
 
@@ -36,5 +36,17 @@ import WhatWeOfferArticle from './WhatWeOfferArticle.vue';
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+@media only screen and (min-width: 1920px) {
+  .whatWeOfferSection {
+    height: 873.37px;
+  }
+
+  .whatWeOfferSection h1 {
+    font-size: 63.09px;
+    line-height: 75.7px;
+    margin-top: 30px;
+  }
 }
 </style>

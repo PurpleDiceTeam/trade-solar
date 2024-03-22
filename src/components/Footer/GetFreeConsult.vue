@@ -43,4 +43,20 @@ article a {
   -webkit-text-fill-color: transparent;
   z-index: 1;
 }
+
+@media only screen and (min-width: 1920px) {
+  article p {
+    font-size: 307.65px;
+    line-height: 369.18px;
+    margin: 20px 0px 0px 280px;
+  }
+
+  article a {
+    text-decoration: underline;
+    font-size: 32.91px;
+    font-weight: 700;
+    line-height: 49.37px;
+    margin-left: 230px;
+  }
+}
 </style>

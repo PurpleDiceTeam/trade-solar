@@ -5,7 +5,7 @@
   <div class="articlesContainer">
     <img src="/src/assets/Testimonials/CarruselLeftArrow.svg" alt="Carrusel left arrow" />
     <article>
-      <img src="/src/assets/Testimonials/testimonialsPhoto.png" alt="" />
+      <img class="testimonialsPhoto" src="/src/assets/Testimonials/testimonialsPhoto.png" alt="" />
       <div class="textArticleContainer">
         <img class="leftQuotes" src="/src/assets/Testimonials/leftQuotes.svg" />
         <p class="mainText">
@@ -22,9 +22,13 @@
 </template>
 
 <style scoped>
+.articlesContainer {
+  margin-top: 44px;
+}
+
 div.articlesContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -83,5 +87,34 @@ div.articlesContainer article {
   min-width: 1000px;
   max-width: 1000px;
   height: 283px;
+}
+
+@media only screen and (min-width: 1920px) {
+  div.articlesContainer article img.testimonialsPhoto {
+    height: 388.81px;
+    margin-left: -200px;
+  }
+
+  .textArticleContainer {
+    min-width: 871.68px;
+    height: 323.2px;
+  }
+
+  div.articlesContainer article div p.mainText {
+    font-size: 32.91px;
+    font-weight: 400;
+    line-height: 46.08px;
+  }
+
+  div.articlesContainer article div p.autor {
+    font-size: 32.91px;
+    line-height: 49.37px;
+  }
+
+  div.articlesContainer article div p.aboutAutor {
+    font-size: 16.46px;
+    line-height: 24.69px;
+
+  }
 }
 </style>

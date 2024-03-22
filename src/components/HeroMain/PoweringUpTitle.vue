@@ -32,4 +32,22 @@ h1 img.poweringSolutionsUnderline {
   float: right;
   margin: -20.5px 66px 0px 0px;
 }
+
+@media only screen and (min-width: 1920px) {
+  h1 {
+    font-size: 65.83px;
+    line-height: 92.16px;
+  }
+
+  h1 img.poweringUpTittleLogo {
+    width: 98.69px;
+    height: 64.29px;
+    margin-bottom: -10px;
+  }
+
+  h1 img.poweringSolutionsUnderline {
+    width: 311.65px;
+    margin: -29.5px 93px 0px 0px;
+  }
+}
 </style>

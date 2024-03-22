@@ -17,10 +17,9 @@ const props = defineProps<Props>()
 
 <style scoped>
 article {
-  min-width: 370px;
-  max-width: 370px;
-  min-height: 274px;
-  max-height: 274px;
+  width: 370px;
+  height: 274px;
+  margin: 0px 40px;
   box-sizing: border-box;
   padding: 48px;
   border-radius: 27px;
@@ -55,5 +54,32 @@ article#clienteleValuations {
 
 article#inFunding {
   margin-top: 36px;
+}
+
+@media only screen and (min-width: 1920px) {
+  article {
+    width: 507.43px;
+    height: 375.74px;
+    padding: 65px;
+  }
+
+  article h1 {
+    font-size: 50.1px;
+    line-height: 60.12px;
+  }
+
+  article p {
+    font-size: 100.2px;
+    line-height: 140.28px;
+    letter-spacing: 0.02em;
+  }
+
+  article#clienteleValuations {
+    margin-bottom: 50px;
+  }
+
+  article#inFunding {
+    margin-top: 50px;
+  }
 }
 </style>
