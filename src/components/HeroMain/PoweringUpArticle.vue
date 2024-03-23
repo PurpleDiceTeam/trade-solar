@@ -24,6 +24,7 @@ import PoweringUpTitle from './PoweringUpTitle.vue';
 article {
 	width: 522px;
 	height: 618px;
+	margin-right: 20px;
 }
 
 article p {

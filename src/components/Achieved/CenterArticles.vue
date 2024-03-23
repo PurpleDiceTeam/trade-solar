@@ -19,7 +19,7 @@ const props = defineProps<Props>()
 article {
   width: 370px;
   height: 274px;
-  margin: 0px 40px;
+  margin: 0px 20px;
   box-sizing: border-box;
   padding: 48px;
   border-radius: 27px;

@@ -3,11 +3,17 @@
 
 <template>
   <input type="text" placeholder="Subscribehere@email.com" />
-  <a href="#" class="howItsWork">How It's Work</a>
-  <a href="" class="lightUp">Light Up!</a>
+  <div>
+    <a href="#" class="howItsWork">How It's Work</a>
+    <a href="" class="lightUp">Light Up!</a>
+  </div>
 </template>
 
 <style scoped>
+div {
+  min-width: 522.61px;
+}
+
 input {
   display: block;
   width: 470px;

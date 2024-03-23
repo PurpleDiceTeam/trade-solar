@@ -25,6 +25,7 @@ article {
 
 article h1 {
   margin: 0px;
+  text-wrap: nowrap;
   font-family: Montserrat Alternates;
   font-size: 25px;
   font-weight: 500;

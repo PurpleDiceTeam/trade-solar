@@ -40,6 +40,7 @@ article p img {
 
 article h1 {
   margin: 0px;
+  text-wrap: nowrap;
   font-family: Montserrat;
   font-size: 37px;
   font-weight: 500;
@@ -74,6 +75,7 @@ article div {
 
 article div p {
   margin: 0px 50px 0px 0px;
+  text-wrap: nowrap;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;

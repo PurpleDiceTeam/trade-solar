@@ -44,6 +44,7 @@ import SocialMediaLinks from './SocialMediaLinks.vue';
   margin: 97px 218px 0px 0px;
   display: flex;
   flex-direction: column;
+  z-index: 2;
 }
 
 .footerDiv div.linksContainer div.linksListsContainer {

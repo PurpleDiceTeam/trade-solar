@@ -3,7 +3,7 @@
 
 <template>
   <div class="articlesContainer">
-    <img src="/src/assets/Testimonials/CarruselLeftArrow.svg" alt="Carrusel left arrow" />
+    <img class="carruselLeftArrow" src="/src/assets/Testimonials/CarruselLeftArrow.svg" alt="Carrusel left arrow" />
     <article>
       <img class="testimonialsPhoto" src="/src/assets/Testimonials/testimonialsPhoto.png" alt="" />
       <div class="textArticleContainer">
@@ -22,14 +22,15 @@
 </template>
 
 <style scoped>
-.articlesContainer {
+div.articlesContainer {
   margin-top: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-div.articlesContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+div.articlesContainer img.carruselLeftArrow {
+  margin-right: 10px;
 }
 
 div.articlesContainer article {
