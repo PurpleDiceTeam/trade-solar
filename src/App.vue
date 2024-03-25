@@ -1,23 +1,26 @@
 <script setup lang="ts">
-import NavBar from './components/Navbar/NavBar.vue';
-import HeroMain from './components/HeroMain/HeroMain.vue'
-import ClientsSection from './components/ClientsSection/ClientsSection.vue';
-import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer.vue';
-import WhoWeAre from './components/WhoWeAre/WhoWeAre.vue';
-import AchievedSection from './components/Achieved/AchievedSection.vue';
-import TestimonialsSection from './components/Testimonials/TestimonialsSection.vue';
-import FooterSection from './components/Footer/FooterSection.vue';
+import DesktopView from './DesktopView.vue';
+import MobileView from './MobileView.vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+
+const isMobile = ref(window.outerWidth <= 1200);
+
+const handleResize = () => {
+  isMobile.value = window.outerWidth <= 1200;
+};
+
+onMounted(() => {
+  window.addEventListener('resize', handleResize);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', handleResize);
+});
 </script>
 
 <template>
-  <NavBar />
-  <HeroMain />
-  <ClientsSection />
-  <WhatWeOffer />
-  <WhoWeAre />
-  <AchievedSection />
-  <TestimonialsSection />
-  <FooterSection />
+  <MobileView v-if="isMobile" />
+  <DesktopView v-else />
 </template>
 
 <style scoped></style>

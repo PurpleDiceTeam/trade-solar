@@ -17,7 +17,7 @@
         <p class="aboutAutor">CEO - CO2E Measurement Solutions</p>
       </div>
     </article>
-    <img src="/src/assets/Testimonials/CarruselRightArrow.svg" alt="Carrusel right arrow" />
+    <img class="carruselRightArrow" src="/src/assets/Testimonials/CarruselRightArrow.svg" alt="Carrusel right arrow" />
   </div>
 </template>
 
@@ -96,6 +96,14 @@ div.articlesContainer article {
     margin-left: -200px;
   }
 
+  div.articlesContainer img.carruselLeftArrow {
+    margin-right: 190px;
+  }
+
+  div.articlesContainer img.carruselRightArrow {
+    margin-left: 190px;
+  }
+
   .textArticleContainer {
     min-width: 871.68px;
     height: 323.2px;
@@ -116,6 +124,11 @@ div.articlesContainer article {
     font-size: 16.46px;
     line-height: 24.69px;
 
+  }
+
+  div.articlesContainer article div img.rightQuotes {
+    position: absolute;
+    margin: -100px 0px 0px 800px;
   }
 }
 </style>

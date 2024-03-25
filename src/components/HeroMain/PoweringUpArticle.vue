@@ -28,6 +28,7 @@ article {
 }
 
 article p {
+	color: #404040;
 	font-family: Montserrat;
 	text-wrap: balance;
 	margin: 26px 0px 28px 0px;
@@ -35,6 +36,7 @@ article p {
 	font-weight: 400;
 	line-height: 32px;
 	letter-spacing: 0em;
+	text-transform: capitalize;
 }
 
 article div {
@@ -48,9 +50,31 @@ article div {
 	}
 
 	article p {
-		font-family: Montserrat;
 		font-size: 24.69px;
 		line-height: 44.43px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	article {
+		min-width: 327px;
+		max-width: 327px;
+		height: 677.44px;
+		margin: 0px;
+	}
+
+	article p {
+		font-size: 14px;
+		line-height: 140%;
+		text-wrap: wrap;
+	}
+
+	article p br {
+		display: none;
+	}
+
+	article div {
+		display: none;
 	}
 }
 </style>

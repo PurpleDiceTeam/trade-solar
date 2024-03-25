@@ -11,7 +11,7 @@
 
 <style scoped>
 div {
-  min-width: 522.61px;
+  width: 522.61px;
 }
 
 input {
@@ -86,6 +86,34 @@ a.lightUp {
     height: 85px;
     font-size: 27.43px;
     line-height: 85px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  div {
+    width: 327px;
+  }
+
+  input {
+    width: 327px;
+    height: 43.4px;
+    font-size: 13.915px;
+    line-height: 120%;
+  }
+
+  a.howItsWork {
+    width: 152.368px;
+    height: 43.4px;
+    font-size: 13.91px;
+    line-height: 43.4px;
+    margin-right: 0px;
+  }
+
+  a.lightUp {
+    width: 152.368px;
+    height: 43.4px;
+    font-size: 13.91px;
+    line-height: 43.4px;
   }
 }
 </style>

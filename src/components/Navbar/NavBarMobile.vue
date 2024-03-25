@@ -1,0 +1,22 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <nav class="navbar">
+    <img src="/src/assets/NavBar/LogoMobile.svg" alt="Trade solar logo" />
+    <img src="/src/assets/NavBar/JamMenu.svg" alt="Trade solar logo" />
+  </nav>
+</template>
+
+<style scoped>
+.navbar {
+  display: flex;
+  width: 327px;
+  padding: 16px 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1200px) {}
+</style>
