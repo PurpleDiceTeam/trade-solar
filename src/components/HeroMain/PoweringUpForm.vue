@@ -74,6 +74,10 @@ a.lightUp {
     line-height: 32.91px;
   }
 
+  div {
+    width: 715px;
+  }
+
   a.howItsWork {
     width: 300px;
     height: 85px;
