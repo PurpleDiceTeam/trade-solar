@@ -63,6 +63,7 @@ article p {
   letter-spacing: 0em;
   text-align: left;
   text-wrap: pretty;
+  text-transform: capitalize;
 }
 
 article div {
@@ -119,6 +120,42 @@ article div a {
   article div img {
     width: 40px;
     margin-bottom: -4px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  article {
+    width: 280px;
+    min-width: 280px;
+    height: 227.94px;
+    box-sizing: border-box;
+    padding: 18px 14px;
+  }
+
+  article img.iconArticle {
+    width: 30.121px;
+    height: 27.317px;
+    margin: 0px 0px 6px 0px;
+  }
+
+  article h2 {
+    font-size: 12.041px;
+    line-height: 14.449px;
+    margin: 0px 0px 6px 0px;
+  }
+
+  article p {
+    font-size: 9.633px;
+    line-height: 15.412px;
+  }
+
+  article div a {
+    font-size: 12.041px;
+    line-height: 14.449px;
+  }
+
+  article div img {
+    width: 22px;
   }
 }
 </style>

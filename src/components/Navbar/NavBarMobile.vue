@@ -14,6 +14,7 @@
   display: flex;
   width: 327px;
   padding: 16px 24px;
+  box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
 }

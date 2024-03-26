@@ -16,7 +16,8 @@ import PoweringUpStats from './PoweringUpStats.vue'
 <style scoped>
 div.statsContainer {
   display: flex;
-  margin-left: 60px;
+  width: 275px;
+  margin-left: 22px;
   box-sizing: border-box;
 }
 </style>
