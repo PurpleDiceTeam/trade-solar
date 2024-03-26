@@ -22,6 +22,7 @@ const props = defineProps<Props>()
 
 <style scoped>
 article {
+  width: 370px;
   min-width: 370px;
   height: 410px;
   margin: 0px 16px 0px 16px;
@@ -85,7 +86,7 @@ article div a {
 
 @media only screen and (min-width: 1920px) {
   article {
-    width: 506.51px;
+    min-width: 506.51px;
     height: 558.63px;
     padding: 32px;
     margin-top: 30px;
