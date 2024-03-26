@@ -24,4 +24,12 @@ article {
     height: 821.49px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  article img {
+    width: 287.88px;
+    height: 300.419px;
+    margin-right: -38px;
+  }
+}
 </style>

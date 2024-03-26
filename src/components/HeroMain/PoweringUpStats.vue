@@ -18,6 +18,7 @@ div {
   display: flex;
   flex-direction: column;
   margin: 0px 46px 0px 0px;
+  text-wrap: nowrap;
 }
 
 h2 {
@@ -48,6 +49,19 @@ div p {
 
   div p {
     font-size: 32.91px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  h2 {
+    margin: 14px 0px 0px 0px;
+    font-size: 45.854px;
+    line-height: 55.025px;
+  }
+
+  div p {
+    font-size: 18.342px;
+    line-height: 22.01px;
   }
 }
 </style>

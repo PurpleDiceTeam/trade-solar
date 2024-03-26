@@ -96,4 +96,37 @@ div ul {
     font-size: 17.48px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  div {
+    width: 125.383px;
+    height: 84.868px;
+    padding: 0px 10px;
+    right: -20px;
+    bottom: 10px;
+  }
+
+  div h1 {
+    font-size: 8.025px;
+    line-height: 8.025px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  div p {
+    font-size: 6.392px;
+    line-height: 6.392px;
+    margin: 6px 0px 0px 0px
+  }
+
+  div img {
+    width: 108.989px;
+    height: 45.444px;
+  }
+
+  div ul {
+    font-size: 6.392px;
+    line-height: 6.392px;
+    width: 105.383px;
+  }
+}
 </style>

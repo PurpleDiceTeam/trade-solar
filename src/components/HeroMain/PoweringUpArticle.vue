@@ -59,7 +59,7 @@ article div {
 	article {
 		min-width: 327px;
 		max-width: 327px;
-		height: 677.44px;
+		height: 400px;
 		margin: 0px;
 	}
 

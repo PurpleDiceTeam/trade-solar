@@ -83,4 +83,36 @@ div p span {
     font-size: 16.92px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  div {
+    width: 78.74px;
+    height: 96.8px;
+    padding: 4.6px;
+    border-radius: 11.23px;
+    left: -38px;
+    bottom: 85px;
+  }
+
+  div img {
+    width: 68.21px;
+    height: 53.66px;
+  }
+
+  div h1 {
+    font-size: 9.028px;
+    line-height: 9.028px;
+    margin: 0px 0px 4px 0px;
+  }
+
+  div p {
+    font-size: 6.188px;
+    line-height: 8.664px;
+  }
+
+  div p span {
+    font-size: 6.188px;
+    line-height: 140%;
+  }
+}
 </style>

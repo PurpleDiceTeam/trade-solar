@@ -99,6 +99,7 @@ a.lightUp {
     height: 43.4px;
     font-size: 13.915px;
     line-height: 120%;
+    padding-left: 20px;
   }
 
   a.howItsWork {
