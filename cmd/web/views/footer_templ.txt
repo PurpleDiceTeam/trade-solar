@@ -1,8 +1,0 @@
-<footer class=\"footerDiv\"><link rel=\"stylesheet\" href=\"/css/footer.css\"><div class=\"articleContainer\">
-<div class=\"linksContainer\"><div class=\"linksListsContainer\">
-</div><div class=\"socialMediaContainer\">
-</div></div></div><p>© 2023 Trade Solar Inc · All Rights Reserved.</p></footer>
-<article class=\"quickLinks\"><h1>QUICK LINKS</h1><img src=\"/assets/quickLinkLine.svg\" alt=\"\"> <img src=\"/assets/\" alt=\"\"><ul><li><a href=\"\">About</a></li><li><a href=\"\">Services</a></li><li><a href=\"\">Partners</a></li></ul></article>
-<article class=\"contactUs\"><h1>CONTACT US</h1><img src=\"/assets/contactUsLine.svg\" alt=\"\"><ul><li><img src=\"/assets/phone.svg\" alt=\"\"> <a href=\"\">1 (723) 393 5824</a></li><li><img src=\"/assets/email.svg\" alt=\"\"> <a href=\"\">malik@solartrade.com</a></li><li><img src=\"/assets/location.svg\" alt=\"\"> <a href=\"\">Address NY</a></li></ul></article>
-<img src=\"/assets/Linkedin.svg\" alt=\"Linkedin logo\"> <img src=\"/assets/Facebook.svg\" alt=\"Facebook logo\"> <img src=\"/assets/Instagram.svg\" alt=\"Instagram logo\"> <img src=\"/assets/Twitter.svg\" alt=\"Twitter logo\">
-<article class=\"getFreeConsult\"><p>SOLAR</p><a href=\"#\">GET A FREE CONSULT</a></article>

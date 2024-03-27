@@ -1,49 +1,39 @@
-# Project trade-solar
+# b
 
-One Paragraph of project description goes here
+This template should help get you started developing with Vue 3 in Vite.
 
-## Getting Started
+## Recommended IDE Setup
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## MakeFile
+## Type Support for `.vue` Imports in TS
 
-run all make commands with clean tests
-```bash
-make all build
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
 ```
 
-build the application
-```bash
-make build
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
 ```
 
-run the application
-```bash
-make run
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
 ```
 
-Create DB container
-```bash
-make docker-run
-```
+### Lint with [ESLint](https://eslint.org/)
 
-Shutdown DB container
-```bash
-make docker-down
-```
-
-live reload the application
-```bash
-make watch
-```
-
-run the test suite
-```bash
-make test
-```
-
-clean up binary from the last build
-```bash
-make clean
+```sh
+npm run lint
 ```

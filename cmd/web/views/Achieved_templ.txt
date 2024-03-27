@@ -1,8 +1,0 @@
-<section class=\"achieved\"><link rel=\"stylesheet\" href=\"/css/achieved.css\">
-<div>
-</div>
-</section>
-<article class=\"sideArticle weAchievedArticle\"><h1>We achieved</h1><p class=\"percentage\">56%</p><p class=\"mainText\">Green energy  in just the past year</p><div class=\"wannaSeeHowContianer\"><p>Wanna see <br>how we did it?</p><img src=\"/assets/AchievedBlueArrow.svg\" alt=\"\"></div><a href=\"\">Views Details</a></article>
-<article class=\"centerArticle\" id=\"clienteleValuationsArticle\"><h1>Clientele valuations</h1><p>+1.5b</p></article>
-<article class=\"centerArticle\" id=\"inFundingArticle\"><h1>In<br>funding</h1><p>+500m</p></article>
-<article class=\"sideArticle baseInArticle\"><h1>Base in</h1><img src=\"/assets/AchievedWhiteArrow.svg\" alt=\"\"> <a href=\"\">Germany</a></article>
