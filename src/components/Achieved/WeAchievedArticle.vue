@@ -150,4 +150,12 @@ article a {
     line-height: 72px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  article {
+    width: 327px;
+    height: 554.92px;
+    padding: 24px;
+  }
+}
 </style>

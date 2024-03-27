@@ -82,4 +82,12 @@ article#inFunding {
     margin-top: 50px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  article {
+    width: 327px;
+    padding: 48px 32px;
+    margin: 0px;
+  }
+}
 </style>

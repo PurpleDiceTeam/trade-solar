@@ -70,9 +70,5 @@ article p {
     height: 417px;
     padding: 42px 0px 0px 0px;
   }
-
-  article h2 {}
-
-  article p {}
 }
 </style>

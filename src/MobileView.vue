@@ -3,6 +3,7 @@ import NavBarMobile from './components/Navbar/NavBarMobile.vue'
 import HeroMainMobile from './components/HeroMain/HeroMainMobile.vue'
 import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer.vue'
 import WhoWeAre from './components/WhoWeAre/WhoWeAre.vue'
+import AchievedSection from './components/Achieved/AchievedSection.vue'
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import WhoWeAre from './components/WhoWeAre/WhoWeAre.vue'
     <HeroMainMobile />
     <WhatWeOffer />
     <WhoWeAre />
+    <AchievedSection />
   </div>
 </template>
 

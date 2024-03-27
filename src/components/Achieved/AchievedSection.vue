@@ -29,4 +29,18 @@ import WeAchievedArticle from './WeAchievedArticle.vue';
     height: 911.29px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .achieved {
+    width: 327px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .achieved div {
+    margin: 32px 0px;
+    width: 327px;
+  }
+}
 </style>

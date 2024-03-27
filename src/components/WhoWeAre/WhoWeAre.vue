@@ -34,7 +34,14 @@ import WhoweAreTitle from './WhoweAreTitle.vue';
 }
 
 @media only screen and (max-width: 1200px) {
+  .whoWeAre {
+    width: 327px;
+    box-sizing: border-box;
+    height: 904px;
+  }
+
   .whoWeAre div.articlesContainer {
+    margin-top: 14px;
     display: flex;
     flex-direction: column;
   }

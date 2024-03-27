@@ -82,4 +82,13 @@ article img {
     margin-top: -6px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  article {
+    width: 327px;
+    height: 276px;
+    padding: 36px 12px 14px 12px;
+    background-position: center 340px;
+  }
+}
 </style>
