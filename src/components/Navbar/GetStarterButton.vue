@@ -3,7 +3,7 @@
 
 <template>
   <a class="startedButton" href="#">Get Started</a>
-  <img class="navArrow" src="/src/assets/NavBar/navArrow.svg" alt="arrowIcon" />
+  <img class="navArrow" src="/src/assets/navBar/navArrow.svg" alt="arrowIcon" />
 </template>
 
 <style scoped>

@@ -4,8 +4,8 @@
 
 <template>
   <nav class="navbar">
-    <img src="/src/assets/NavBar/LogoMobile.svg" alt="Trade solar logo" />
-    <img src="/src/assets/NavBar/JamMenu.svg" alt="Trade solar logo" />
+    <img src="/src/assets/navBar/LogoMobile.svg" alt="Trade solar logo" />
+    <img src="/src/assets/navBar/JamMenu.svg" alt="Trade solar logo" />
   </nav>
 </template>
 

@@ -6,7 +6,7 @@ import NavigateUl from './NavigateUl.vue';
 
 <template>
 	<nav class="navbar">
-		<img src="/src/assets/NavBar/Logo.svg" alt="Trade solar logo" />
+		<img src="/src/assets/navBar/Logo.svg" alt="Trade solar logo" />
 		<NavigateUl />
 		<GetStarterButton />
 	</nav>
