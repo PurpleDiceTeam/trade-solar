@@ -131,4 +131,63 @@ div.articlesContainer article {
     margin: -100px 0px 0px 800px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  div.articlesContainer {
+    margin: 0px;
+  }
+
+  div.articlesContainer article img.testimonialsPhoto {
+    display: none;
+  }
+
+  div.articlesContainer img.carruselLeftArrow {
+    display: none;
+  }
+
+  div.articlesContainer img.carruselRightArrow {
+    display: none;
+  }
+
+  div.articlesContainer article {
+    min-width: 327px;
+    max-width: 327px;
+    margin: 24px 0px;
+    height: 283px;
+    background-color: #FAFAFA;
+  }
+
+  div.articlesContainer article div {
+    padding-left: 0px;
+    height: 283px;
+  }
+
+  div.articlesContainer article div p.mainText {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  div.articlesContainer article div p.autor {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  div.articlesContainer article div p.aboutAutor {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  div.articlesContainer article div img.leftQuotes {
+    position: absolute;
+    margin: 10px 0px 0px 0px;
+  }
+
+  div.articlesContainer article div img.rightQuotes {
+    position: absolute;
+    margin: -50px 0px 0px 260px;
+  }
+}
 </style>

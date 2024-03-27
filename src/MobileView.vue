@@ -4,6 +4,7 @@ import HeroMainMobile from './components/HeroMain/HeroMainMobile.vue'
 import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer.vue'
 import WhoWeAre from './components/WhoWeAre/WhoWeAre.vue'
 import AchievedSection from './components/Achieved/AchievedSection.vue'
+import TestimonialsSection from './components/Testimonials/TestimonialsSection.vue'
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import AchievedSection from './components/Achieved/AchievedSection.vue'
     <WhatWeOffer />
     <WhoWeAre />
     <AchievedSection />
+    <TestimonialsSection />
   </div>
 </template>
 

@@ -21,4 +21,13 @@ import TestimonialsTittle from './TestimonialsTittle.vue';
 		height: 627.24px;
 	}
 }
+
+@media only screen and (max-width: 1200px) {
+	.testimonials {
+		width: 327px;
+		height: 377px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+}
 </style>

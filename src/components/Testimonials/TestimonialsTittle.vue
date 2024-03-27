@@ -5,7 +5,7 @@
   <div class="tittleContainer">
     <h1>Testimonials</h1>
     <img src="/src/assets/Testimonials/Arrow.svg" alt="Arrow" />
-    <p>See what people are saying</p>
+    <p>See what people are saying.</p>
   </div>
 </template>
 
@@ -51,6 +51,30 @@ div p {
     font-size: 27.43px;
     line-height: 32.91px;
     margin: 0px 0px 0px 46px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  div {
+    flex-direction: column;
+    align-items: start;
+    margin: 32px 0px 0px 0px;
+  }
+
+  div h1 {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+
+  div p {
+    leading-trim: both;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px;
+  }
+
+  div img {
+    display: none;
   }
 }
 </style>
