@@ -63,4 +63,27 @@ article h1 {
     line-height: 21.6px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  article {
+    margin: 0px 0px 14px 0px;
+  }
+
+  article h1 {
+    text-align: center;
+    leading-trim: both;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  article img.underline {}
+
+  article ul {
+    text-align: center;
+    leading-trim: both;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0.14px;
+  }
+}
 </style>

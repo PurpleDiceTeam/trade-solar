@@ -59,4 +59,22 @@ article a {
     margin-left: 230px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  article {
+    width: 327px;
+    height: 40px;
+  }
+
+  article p {
+    margin-bottom: -1010px;
+    line-height: 0px;
+    margin-left: 20px;
+    font-size: 96px;
+  }
+
+  article a {
+    margin: 48px 0px;
+  }
+}
 </style>

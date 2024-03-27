@@ -79,4 +79,23 @@ article.contactUs ul li img {
     margin-bottom: -6px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  article h1 {
+    text-align: center;
+    leading-trim: both;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  article img.underline {}
+
+  article ul {
+    text-align: center;
+    leading-trim: both;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0.14px;
+  }
+}
 </style>

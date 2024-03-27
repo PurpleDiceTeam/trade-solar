@@ -7,7 +7,6 @@ import SocialMediaLinks from './SocialMediaLinks.vue';
 
 <template>
   <footer class="footerDiv">
-    <link rel="stylesheet" href="/css/footer.css" />
     <div class="articleContainer">
       <GetFreeConsult />
       <div class="linksContainer">
@@ -72,6 +71,36 @@ p {
   .footerDiv p {
     margin-top: 140px;
     font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .footerDiv {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerDiv div {
+    display: flex;
+    width: 327px;
+    flex-direction: column;
+  }
+
+  .footerDiv p {
+    margin-top: 30px;
+  }
+
+  .footerDiv div.linksContainer {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .footerDiv div.linksContainer div.socialMediaContainer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
   }
 }
 </style>

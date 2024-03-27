@@ -5,6 +5,7 @@ import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer.vue'
 import WhoWeAre from './components/WhoWeAre/WhoWeAre.vue'
 import AchievedSection from './components/Achieved/AchievedSection.vue'
 import TestimonialsSection from './components/Testimonials/TestimonialsSection.vue'
+import FooterSection from './components/Footer/FooterSection.vue'
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import TestimonialsSection from './components/Testimonials/TestimonialsSection.v
     <WhoWeAre />
     <AchievedSection />
     <TestimonialsSection />
+    <FooterSection />
   </div>
 </template>
 
