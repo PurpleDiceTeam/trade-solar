@@ -59,6 +59,7 @@ import WhatWeOfferArticle from './WhatWeOfferArticle.vue';
 @media only screen and (max-width: 1200px) {
   .whatWeOfferSection {
     width: 327px;
+    height: 400px;
     padding: 0px;
     box-sizing: border-box;
   }
@@ -66,7 +67,7 @@ import WhatWeOfferArticle from './WhatWeOfferArticle.vue';
   .whatWeOfferSection h1 {
     font-size: 34px;
     line-height: 40.8px;
-    margin: 20px 0px;
+    margin: 38px 0px 20px 0px;
     text-align: left;
   }
 

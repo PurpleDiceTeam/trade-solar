@@ -32,4 +32,11 @@ import WhoweAreTitle from './WhoweAreTitle.vue';
     height: 744.49px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .whoWeAre div.articlesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
 </style>

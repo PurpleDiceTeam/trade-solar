@@ -43,6 +43,7 @@ article h2 {
 
 article p {
   margin: 18px 0px;
+  text-transform: capitalize;
 }
 
 article div {
@@ -102,6 +103,32 @@ article p {
   article div img {
     width: 40px;
     margin-bottom: -6px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  article {
+    width: 327px;
+    height: 417px;
+    padding: 0px 0px 0px 24px;
+    box-sizing: border-box;
+    margin-top: 24px;
+  }
+
+  article h2 {
+    font-size: 28px;
+    line-height: 38.4px;
+  }
+
+  article p {
+    font-size: 18px;
+    line-height: 32.4px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+  }
+
+  article p br {
+    display: none;
   }
 }
 </style>

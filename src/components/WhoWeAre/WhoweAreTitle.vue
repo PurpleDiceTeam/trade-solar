@@ -61,4 +61,10 @@ div a {
     line-height: 84.83px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  div {
+    display: none;
+  }
+}
 </style>

@@ -2,6 +2,7 @@
 import NavBarMobile from './components/Navbar/NavBarMobile.vue'
 import HeroMainMobile from './components/HeroMain/HeroMainMobile.vue'
 import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer.vue'
+import WhoWeAre from './components/WhoWeAre/WhoWeAre.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer.vue'
     <NavBarMobile />
     <HeroMainMobile />
     <WhatWeOffer />
+    <WhoWeAre />
   </div>
 </template>
 

@@ -63,4 +63,16 @@ article p {
     margin-bottom: 65px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  article {
+    width: 327px;
+    height: 417px;
+    padding: 42px 0px 0px 0px;
+  }
+
+  article h2 {}
+
+  article p {}
+}
 </style>
