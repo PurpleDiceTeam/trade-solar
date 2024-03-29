@@ -25,7 +25,7 @@ import TestimonialsTittle from './TestimonialsTittle.vue';
 @media only screen and (max-width: 1200px) {
 	.testimonials {
 		width: 327px;
-		height: 377px;
+		height: 440px;
 		padding: 0px;
 		box-sizing: border-box;
 	}
